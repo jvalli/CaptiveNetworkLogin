@@ -1,0 +1,6 @@
+framework module Pods_CaptiveNetworkLogin {
+  umbrella header "Pods-CaptiveNetworkLogin-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48831C45CA7DEF830A85DA55 /* Pods_CaptiveNetworkLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67093BADE29B4C1DF831ABA2 /* Pods_CaptiveNetworkLogin.framework */; };
+		CA6665601CE4F96B00C888CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA66655F1CE4F96B00C888CB /* AppDelegate.swift */; };
+		CA6665621CE4F96B00C888CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6665611CE4F96B00C888CB /* ViewController.swift */; };
+		CA6665651CE4F96B00C888CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA6665631CE4F96B00C888CB /* Main.storyboard */; };
+		CA6665671CE4F96B00C888CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA6665661CE4F96B00C888CB /* Assets.xcassets */; };
+		CA66656A1CE4F96B00C888CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA6665681CE4F96B00C888CB /* LaunchScreen.storyboard */; };
+		CA6665721CE4FE1300C888CB /* HotspotConnectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6665711CE4FE1300C888CB /* HotspotConnectionViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		67093BADE29B4C1DF831ABA2 /* Pods_CaptiveNetworkLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CaptiveNetworkLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA66655C1CE4F96B00C888CB /* CaptiveNetworkLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaptiveNetworkLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA66655F1CE4F96B00C888CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA6665611CE4F96B00C888CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CA6665641CE4F96B00C888CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA6665661CE4F96B00C888CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA6665691CE4F96B00C888CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA66656B1CE4F96B00C888CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA6665711CE4FE1300C888CB /* HotspotConnectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotspotConnectionViewController.swift; sourceTree = "<group>"; };
+		CB96CB720A37D20C98E0FCF3 /* Pods-CaptiveNetworkLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaptiveNetworkLogin.release.xcconfig"; path = "../Pods/Target Support Files/Pods-CaptiveNetworkLogin/Pods-CaptiveNetworkLogin.release.xcconfig"; sourceTree = "<group>"; };
+		D7A039A0F5365E88F793DA82 /* Pods-CaptiveNetworkLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaptiveNetworkLogin.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-CaptiveNetworkLogin/Pods-CaptiveNetworkLogin.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA6665591CE4F96B00C888CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48831C45CA7DEF830A85DA55 /* Pods_CaptiveNetworkLogin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67B31C5587ED7A31754A3A8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67093BADE29B4C1DF831ABA2 /* Pods_CaptiveNetworkLogin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B533A0CFD248ECEE7B2374DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7A039A0F5365E88F793DA82 /* Pods-CaptiveNetworkLogin.debug.xcconfig */,
+				CB96CB720A37D20C98E0FCF3 /* Pods-CaptiveNetworkLogin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CA6665531CE4F96B00C888CB = {
+			isa = PBXGroup;
+			children = (
+				CA66655E1CE4F96B00C888CB /* CaptiveNetworkLogin */,
+				CA66655D1CE4F96B00C888CB /* Products */,
+				B533A0CFD248ECEE7B2374DA /* Pods */,
+				67B31C5587ED7A31754A3A8F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CA66655D1CE4F96B00C888CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA66655C1CE4F96B00C888CB /* CaptiveNetworkLogin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA66655E1CE4F96B00C888CB /* CaptiveNetworkLogin */ = {
+			isa = PBXGroup;
+			children = (
+				CA6665711CE4FE1300C888CB /* HotspotConnectionViewController.swift */,
+				CA66655F1CE4F96B00C888CB /* AppDelegate.swift */,
+				CA6665611CE4F96B00C888CB /* ViewController.swift */,
+				CA6665631CE4F96B00C888CB /* Main.storyboard */,
+				CA6665661CE4F96B00C888CB /* Assets.xcassets */,
+				CA6665681CE4F96B00C888CB /* LaunchScreen.storyboard */,
+				CA66656B1CE4F96B00C888CB /* Info.plist */,
+			);
+			path = CaptiveNetworkLogin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA66655B1CE4F96B00C888CB /* CaptiveNetworkLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA66656E1CE4F96B00C888CB /* Build configuration list for PBXNativeTarget "CaptiveNetworkLogin" */;
+			buildPhases = (
+				ED50A56C6BE13B37AE936237 /* 📦 Check Pods Manifest.lock */,
+				CA6665581CE4F96B00C888CB /* Sources */,
+				CA6665591CE4F96B00C888CB /* Frameworks */,
+				CA66655A1CE4F96B00C888CB /* Resources */,
+				B15BDB1BC5D66944850B87F8 /* 📦 Embed Pods Frameworks */,
+				2E341C410161AFC903EDB204 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CaptiveNetworkLogin;
+			productName = CaptiveNetworkLogin;
+			productReference = CA66655C1CE4F96B00C888CB /* CaptiveNetworkLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA6665541CE4F96B00C888CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Jerónimo Valli";
+				TargetAttributes = {
+					CA66655B1CE4F96B00C888CB = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = CA6665571CE4F96B00C888CB /* Build configuration list for PBXProject "CaptiveNetworkLogin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA6665531CE4F96B00C888CB;
+			productRefGroup = CA66655D1CE4F96B00C888CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA66655B1CE4F96B00C888CB /* CaptiveNetworkLogin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA66655A1CE4F96B00C888CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA66656A1CE4F96B00C888CB /* LaunchScreen.storyboard in Resources */,
+				CA6665671CE4F96B00C888CB /* Assets.xcassets in Resources */,
+				CA6665651CE4F96B00C888CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E341C410161AFC903EDB204 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-CaptiveNetworkLogin/Pods-CaptiveNetworkLogin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B15BDB1BC5D66944850B87F8 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-CaptiveNetworkLogin/Pods-CaptiveNetworkLogin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED50A56C6BE13B37AE936237 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA6665581CE4F96B00C888CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA6665621CE4F96B00C888CB /* ViewController.swift in Sources */,
+				CA6665721CE4FE1300C888CB /* HotspotConnectionViewController.swift in Sources */,
+				CA6665601CE4F96B00C888CB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CA6665631CE4F96B00C888CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA6665641CE4F96B00C888CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA6665681CE4F96B00C888CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA6665691CE4F96B00C888CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA66656C1CE4F96B00C888CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA66656D1CE4F96B00C888CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA66656F1CE4F96B00C888CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7A039A0F5365E88F793DA82 /* Pods-CaptiveNetworkLogin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CaptiveNetworkLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bminds.CaptiveNetworkLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CA6665701CE4F96B00C888CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB96CB720A37D20C98E0FCF3 /* Pods-CaptiveNetworkLogin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CaptiveNetworkLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bminds.CaptiveNetworkLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA6665571CE4F96B00C888CB /* Build configuration list for PBXProject "CaptiveNetworkLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA66656C1CE4F96B00C888CB /* Debug */,
+				CA66656D1CE4F96B00C888CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA66656E1CE4F96B00C888CB /* Build configuration list for PBXNativeTarget "CaptiveNetworkLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA66656F1CE4F96B00C888CB /* Debug */,
+				CA6665701CE4F96B00C888CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA6665541CE4F96B00C888CB /* Project object */;
+}

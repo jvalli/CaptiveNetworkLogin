@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CaptiveNetworkLogin" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Captive Network Login" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6iH-wE-fkM">
+                                <rect key="frame" x="0.0" y="278" width="600" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Vj6-K0-1pI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="6iH-wE-fkM" secondAttribute="trailing" id="hvT-2m-vms"/>
+                            <constraint firstItem="6iH-wE-fkM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="kbD-6g-C1V"/>
+                            <constraint firstItem="6iH-wE-fkM" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="mU8-vg-x4N"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="375" y="337"/>
+        </scene>
+        <!--Hotspot Connection View Controller-->
+        <scene sceneID="LwL-ps-oym">
+            <objects>
+                <viewController storyboardIdentifier="HotspotConnectionViewController" id="kIk-1P-Gne" customClass="HotspotConnectionViewController" customModule="CaptiveNetworkLogin" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="58T-Zs-nfd"/>
+                        <viewControllerLayoutGuide type="bottom" id="AIQ-xA-rMh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5LL-Xc-uBi">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dhc-xd-Wed">
+                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                            </webView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="74y-Ji-1ta">
+                                <rect key="frame" x="282" y="281" width="37" height="37"/>
+                            </activityIndicatorView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BnX-1l-dFb">
+                                <rect key="frame" x="0.0" y="20" width="600" height="44"/>
+                                <items>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="jiO-K8-dai"/>
+                                    <barButtonItem title="Done" id="gpD-qz-r63">
+                                        <connections>
+                                            <action selector="onClickButtonDone" destination="kIk-1P-Gne" id="hOT-cC-MfN"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="BnX-1l-dFb" secondAttribute="trailing" id="Cdq-CU-ruY"/>
+                            <constraint firstItem="AIQ-xA-rMh" firstAttribute="top" secondItem="dhc-xd-Wed" secondAttribute="bottom" id="D0N-bc-Tf7"/>
+                            <constraint firstItem="74y-Ji-1ta" firstAttribute="centerX" secondItem="5LL-Xc-uBi" secondAttribute="centerX" id="JQW-Ub-lzu"/>
+                            <constraint firstItem="dhc-xd-Wed" firstAttribute="top" secondItem="BnX-1l-dFb" secondAttribute="bottom" id="NAg-B0-xsn"/>
+                            <constraint firstItem="74y-Ji-1ta" firstAttribute="centerY" secondItem="5LL-Xc-uBi" secondAttribute="centerY" id="S3j-tc-nkO"/>
+                            <constraint firstItem="dhc-xd-Wed" firstAttribute="top" secondItem="58T-Zs-nfd" secondAttribute="bottom" id="SWo-oF-dm2"/>
+                            <constraint firstAttribute="trailing" secondItem="dhc-xd-Wed" secondAttribute="trailing" id="aG5-2O-Pol"/>
+                            <constraint firstItem="dhc-xd-Wed" firstAttribute="leading" secondItem="5LL-Xc-uBi" secondAttribute="leading" id="agV-NX-lOo"/>
+                            <constraint firstItem="BnX-1l-dFb" firstAttribute="top" secondItem="58T-Zs-nfd" secondAttribute="bottom" id="n8d-mn-lng"/>
+                            <constraint firstItem="BnX-1l-dFb" firstAttribute="leading" secondItem="5LL-Xc-uBi" secondAttribute="leading" id="usR-e2-E6I"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="SWo-oF-dm2"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="activityIndicator" destination="74y-Ji-1ta" id="O9J-eH-xWk"/>
+                        <outlet property="webView" destination="dhc-xd-Wed" id="mIt-C5-U2R"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bEj-7O-Wyh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1131" y="337"/>
+        </scene>
+    </scenes>
+</document>
